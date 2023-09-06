@@ -15,13 +15,16 @@ header{ }
     flex-direction: column;
 }
 main{flex-grow: 1;}
-
+.header-inner{  
+    border-bottom: 1px solid #e7e9fc
+}
 
 .navigation{ display: flex; 
     flex-direction: row; 
     align-items: center;
     height: 72px;
     flex-shrink: 0;
+    align-items: center;
     
 }
 .inner-social{ display: flex;
@@ -36,8 +39,8 @@ flex-shrink: 0;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-flex-flow: row nowrap;
-height: 72px;
+ flex-flow: row nowrap;
+  height: 72px;
     flex-shrink: 0;}
 
 .link{ color: #2e2f42;
@@ -72,7 +75,9 @@ display: inline-flex;
 .address-links:hover{color: #404bbf;}
 .address-links:focus{ color:#404bbf;}
 
-.sect-main{background: #2E2F42;}
+.sect-main{background: #2E2F42;
+padding: 188px 0 188px;
+}
 main{ width: auto;}
 .h-main{ color:  #FFF;
     /* Header 1 */
@@ -81,7 +86,8 @@ main{ width: auto;}
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
-    text-align: center;}
+    text-align: center;
+max-width: 496px;}
 
 .button{ background: #4D5AE5;
     color: #FFF;
@@ -94,11 +100,15 @@ main{ width: auto;}
     letter-spacing: 0.64px;
     cursor: pointer;
     display: block;
-    margin: 0 auto;}
+    margin: 0 auto;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;}
 .button:hover{background-color: #404bbf;}
 .button:focus{ background: #404bbf;}
 
-.hid{ display: none; }
+.hid{ visibility: hidden;}
 
 .sect-title{color: #2E2F42;
     font-family: Roboto;
@@ -116,7 +126,9 @@ background: var(--CLOUD, #F4F4FD);}
 
 .sect-cont-line{ display: flex;
 flex-direction: row;
-gap: 12px;}
+gap: 24px;
+
+}
 
 .li-team{ background-color: #FFFFFF;
     display: inline-flex;
@@ -133,9 +145,10 @@ border-radius: 0px 0px 4px 4px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px; }
+    gap: 8px;
+margin-bottom: 8px; }
 
-.sect-cont{ }
+.sect-cont{ width: calc((100% - 72px) / 4); }
 
 .h-sect{ color: #2e2f42; 
     font-weight: 500;
@@ -143,8 +156,19 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 8px;
     
    }
+
+.h-section {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+   margin-bottom: 72px;}
 .inside-ul{ 
     display: flex;
     flex-direction: row;
@@ -181,10 +205,10 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.02em;
     line-height: 1.11;
     text-transform: capitalize;
-    text-align: center;}
+    text-align: center;
+margin-bottom: 72px;}
 
 .porfolio-li{ background-color: #FFFFFF;
-    width: calc((100% - 48px) / 2);
     display: flex;
     width: 360px;
     height: 420px;
@@ -195,6 +219,8 @@ border-radius: 0px 0px 4px 4px;
     flex-shrink: 0;
     border-bottom: 1px solid #E7E9FC;
     border-radius: 0px 0px 4px 0px;
+    width: calc((100% - 48px) / 3);
+
     }
 
 .porf-ul{display: flex;
@@ -203,14 +229,20 @@ border-radius: 0px 0px 4px 4px;
     padding-bottom: 0px;
     flex-shrink: 0;
     gap: 24px;
+    row-gap: 48px;
 }
-
+.porf-text{ padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 .container{ max-width: 1158px;
     margin: 0 auto;
-    padding: 0 32px;}
+    padding: 0 15px 0 15px;}
 
 .porf-inside{  }
-.footer{ background-color: #2E2F42;}
+.footer{ background-color: #2E2F42;
+padding: 100px 0 100px;}
 .footer-p{ color:#F4F4FD;
     font-family: Roboto;
     font-size: 16px;
@@ -246,7 +278,8 @@ margin-top: 18px;}
     text-transform: uppercase;
     letter-spacing: 0.03em;
     text-decoration: none;
- display: inline-block;}
+ display: inline-block;
+margin-bottom: 16px;}
 .logo-top{ color: #4D5AE5;
     font-family: Raleway, sans-serif; 
     font-size: 18px;
@@ -256,7 +289,8 @@ margin-top: 18px;}
     /* 116.667% */
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;}
+    display: inline-block;
+    margin-right: 76px}
 .section{ padding-top: 120px;
     padding-bottom: 120px;}
     /* #title {
