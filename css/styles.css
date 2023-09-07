@@ -29,9 +29,10 @@ main{flex-grow: 1;}
 }
 .menu{ display: flex;
     gap: 40px;
+    padding: 24px 0 24px;
 }
 .li-nav{ 
-    padding: 24px 0 24px;
+    
 }
 
 .logo-top {
@@ -93,6 +94,11 @@ display: inline-flex;
 .address-style{font-style: normal;
 display: flex;
 gap: 40px;}
+.address-list{display: flex;
+    gap: 40px;
+
+
+}
 .address-links{ color:#434455;
      line-height: 1.5;
     letter-spacing: 0.02em; 
@@ -102,7 +108,7 @@ gap: 40px;}
 .address-links:focus{ color:#404bbf;}
 
 .sect-main{background: #2E2F42;
-padding: 188px 0 188px;  
+padding: 188px 0;
 }
 main{ width: auto;}
 .h-main{ color:  #FFF;
@@ -165,9 +171,7 @@ background: var(--CLOUD, #F4F4FD);}
 
 .sect-cont-line{ display: flex;
 flex-direction: row;
-gap: 24px;
-flex-basis: calc((100% - 72px) / 4); 
-
+gap: 24px; 
 }
 
 .li-team{ background-color: #FFFFFF;
@@ -188,7 +192,7 @@ border-radius: 0px 0px 4px 4px;
     gap: 8px;
 margin-bottom: 8px; padding: 32px 0 32px; }
 
-.sect-cont{ width: calc((100% - 72px) / 4);}
+.sect-cont{ width calc((100% - 3 * 24px) / 4);}
 
 .h-sect{ color: #2e2f42; 
     font-weight: 500;
@@ -207,8 +211,7 @@ margin-bottom: 8px; padding: 32px 0 32px; }
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 8px;
-   margin-bottom: 72px;}
+    margin-bottom: 8px;}
 .inside-ul{ 
     display: flex;
     flex-direction: row;
