@@ -108,9 +108,11 @@ gap: 40px;}
 .address-links:hover{color: #404bbf;}
 .address-links:focus{ color:#404bbf;}
 
-.sect-main{background: #2E2F42;
+.sect-main{ background: #2E2F42;
 padding-top: 188px;
 padding-bottom: 188px;
+padding-left: 0;
+padding-right: 0;
 }
 main{ width: auto;}
 .h-main{ color:  #FFF;
@@ -194,7 +196,7 @@ border-radius: 0px 0px 4px 4px;
     gap: 8px;
 margin-bottom: 8px; padding: 32px 0 32px; }
 
-.sect-cont{ flex-basis: calc((100% - 3 * 24px) / 4);}
+.sect-cont{ width: calc((100% - 72px) / 4);}
 
 .h-sect{ color: #2e2f42; 
     font-weight: 500;
@@ -227,12 +229,7 @@ margin-bottom: 8px; padding: 32px 0 32px; }
     line-height: 24px;
     letter-spacing: 0.32px;
     text-align: center;}
-  .para {
-            color: #434455;
-            font-family: Roboto;
-            font-size: 16px;
-            line-height: 24px;
-            letter-spacing: 0.32px;}
+
 .h-all{ color:  #2E2F42;
     font-family: Roboto;
     font-size: 20px;
