@@ -109,7 +109,8 @@ gap: 40px;}
 .address-links:focus{ color:#404bbf;}
 
 .sect-main{background: #2E2F42;
-padding: 188px 0 188px;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 main{ width: auto;}
 .h-main{ color:  #FFF;
@@ -193,7 +194,7 @@ border-radius: 0px 0px 4px 4px;
     gap: 8px;
 margin-bottom: 8px; padding: 32px 0 32px; }
 
-.sect-cont{ width: calc((100% - 3 * 24px) / 4);}
+.sect-cont{ flex-basis: calc((100% - 3 * 24px) / 4);}
 
 .h-sect{ color: #2e2f42; 
     font-weight: 500;
