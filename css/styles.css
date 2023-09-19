@@ -68,7 +68,7 @@ flex-shrink: 0;
 
 .link{ color: #2e2f42;
     text-decoration: none;
-padding-right: 40px;
+padding: 24px 0 24px
 }
 .link:hover{ color: #404bbf;}
 .link:focus{ color: #404bbf;}
@@ -94,6 +94,7 @@ display: inline-flex;
 .address-style{font-style: normal;
 display: flex;
 gap: 40px;}
+
 .address-list{display: flex;
     gap: 40px;
 
@@ -108,7 +109,7 @@ gap: 40px;}
 .address-links:focus{ color:#404bbf;}
 
 .sect-main{background: #2E2F42;
-padding: 188px 0;
+padding: 188px 0 188px;
 }
 main{ width: auto;}
 .h-main{ color:  #FFF;
@@ -192,7 +193,7 @@ border-radius: 0px 0px 4px 4px;
     gap: 8px;
 margin-bottom: 8px; padding: 32px 0 32px; }
 
-.sect-cont{ width calc((100% - 3 * 24px) / 4);}
+.sect-cont{ width: calc((100% - 3 * 24px) / 4);}
 
 .h-sect{ color: #2e2f42; 
     font-weight: 500;
