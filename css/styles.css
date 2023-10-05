@@ -1,3 +1,8 @@
+ul,p,h1,h2,h3{margin: 0;}
+
+ul{padding-left: 0;}
+
+
 
 body{font-family: 'Roboto', sans-serif;
 color: #434455;
@@ -29,8 +34,7 @@ main{flex-grow: 1;}
 }
 .menu{ display: flex;
     gap: 40px;
-    padding: 24px 0 24px;
-}
+padding: 0;}
 .li-nav{ 
     
 }
@@ -96,10 +100,7 @@ display: flex;
 gap: 40px;}
 
 .address-list{display: flex;
-    gap: 40px;
-
-
-}
+    gap: 40px;}
 .address-links{ color:#434455;
      line-height: 1.5;
     letter-spacing: 0.02em; 
@@ -123,7 +124,9 @@ main{ width: auto;}
     line-height: 1.07;
     letter-spacing: 1.12px;
     text-align: center;
-max-width: 496px;}
+    max-width: 496px;
+    margin: auto;
+   padding-bottom: 48px;}
 
 .button{ background: #4D5AE5;
     color: #FFF;
@@ -205,9 +208,7 @@ margin-bottom: 8px; padding: 32px 0 32px; }
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
-    margin-bottom: 8px;
-    
+    margin-bottom: 8px;  
    }
 
 .h-section{
@@ -230,7 +231,7 @@ margin-bottom: 8px; padding: 32px 0 32px; }
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
-    text-align: center;}
+    }
 
 .h-all{ color:  #2E2F42;
     font-family: Roboto;
@@ -238,7 +239,6 @@ margin-bottom: 8px; padding: 32px 0 32px; }
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     margin-bottom: 8px;} 
 
 .sect-title-third{color: #2E2F42;
@@ -304,8 +304,7 @@ margin-top: 18px;}
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;
-    padding-right: 76px;}
+    display: inline-block;}
 .logo{ color: #F4F4FD;
         font-family: Raleway, sans-serif;
         font-size: 18px;
